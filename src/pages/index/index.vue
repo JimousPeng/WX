@@ -1,7 +1,7 @@
 <template>
   <div class="beiwang">
     <div class="header">
-      <input class="input-box" type="text" placeholder="添加待办事项" v-model="actions">
+      <input class="input-box" type="text" placeholder="添加" v-model="actions">
       <button class="add" @click="addaction">+</button>
     </div>
     <div class="content">
